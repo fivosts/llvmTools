@@ -1,0 +1,1363 @@
+desc: --time-unit=B
+cmd: ./poker_simulator.out
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=72712
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=77200
+mem_heap_B=76391
+mem_heap_extra_B=617
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=80352
+mem_heap_B=77399
+mem_heap_extra_B=665
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=84472
+mem_heap_B=81503
+mem_heap_extra_B=681
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=88760
+mem_heap_B=85447
+mem_heap_extra_B=1025
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=91528
+mem_heap_B=87775
+mem_heap_extra_B=1465
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=93376
+mem_heap_B=89303
+mem_heap_extra_B=1785
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=97432
+mem_heap_B=92631
+mem_heap_extra_B=2401
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=99928
+mem_heap_B=94515
+mem_heap_extra_B=2549
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=102408
+mem_heap_B=95598
+mem_heap_extra_B=2698
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=106856
+mem_heap_B=97198
+mem_heap_extra_B=2858
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=194080
+mem_heap_B=184406
+mem_heap_extra_B=2874
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=196608
+mem_heap_B=186742
+mem_heap_extra_B=3066
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=200320
+mem_heap_B=189326
+mem_heap_extra_B=3330
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=204592
+mem_heap_B=188782
+mem_heap_extra_B=3330
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=208232
+mem_heap_B=189318
+mem_heap_extra_B=3426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=211872
+mem_heap_B=189854
+mem_heap_extra_B=3522
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=215512
+mem_heap_B=190390
+mem_heap_extra_B=3618
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=217576
+mem_heap_B=190390
+mem_heap_extra_B=3618
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=221304
+mem_heap_B=186990
+mem_heap_extra_B=3290
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=223848
+mem_heap_B=188454
+mem_heap_extra_B=3426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=227656
+mem_heap_B=188958
+mem_heap_extra_B=3722
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=231104
+mem_heap_B=187926
+mem_heap_extra_B=3562
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=233984
+mem_heap_B=186326
+mem_heap_extra_B=3306
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=235696
+mem_heap_B=185336
+mem_heap_extra_B=3304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=239920
+mem_heap_B=187088
+mem_heap_extra_B=3360
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=244040
+mem_heap_B=191192
+mem_heap_extra_B=3376
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=246760
+mem_heap_B=189696
+mem_heap_extra_B=3336
+mem_stacks_B=0
+heap_tree=detailed
+n4: 189696 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 112848 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n6: 112848 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n1: 87208 0x487B98A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 87208 0x48CA467: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 87208 0x486DD6D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 87208 0x48CB879: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 87208 0x48FE7FF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 87208 0x48FE9CA: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 87208 0x48FEA0D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 87208 0x48FF0C7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+           n1: 87208 0x48FF9CF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+            n1: 87208 0x487E655: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+             n1: 87208 0x4880804: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+              n1: 87208 0x48DDBF5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+               n1: 87208 0x4910B2C: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                n1: 87208 0x491359E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                 n1: 87208 0x4913AE4: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                  n1: 87208 0x4913E04: sqlite3_prepare_v2 (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                   n1: 87208 0x40AE13: db_communicator::prepare_stage_read(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                    n1: 87208 0x40B241: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                     n1: 87208 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                      n1: 87208 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                       n0: 87208 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 8208 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x488A1A5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48D5B75: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 7976 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n2: 5344 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n0: 2792 in 12 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 1224 in 4 places, all below massif's threshold (1.00%)
+    n0: 2632 in 23 places, all below massif's threshold (1.00%)
+   n2: 4152 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2096 in 8 places, all below massif's threshold (1.00%)
+    n1: 2056 0x487B63E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 2056 0x487BC60: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 2056 0x487B0B9: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 2056 0x48D5BF7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2056 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 2056 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 2056 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 2056 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n0: 2056 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 3064 in 16 places, all below massif's threshold (1.00%)
+   n1: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2240 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n0: 2128 in 11 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=29
+#-----------
+time=251304
+mem_heap_B=192495
+mem_heap_extra_B=3497
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=253296
+mem_heap_B=194231
+mem_heap_extra_B=3753
+mem_stacks_B=0
+heap_tree=peak
+n4: 194231 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 117248 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n6: 117248 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n1: 87208 0x487B98A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 87208 0x48CA467: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 87208 0x486DD6D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 87208 0x48CB879: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 87208 0x48FE7FF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 87208 0x48FE9CA: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 87208 0x48FEA0D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 87208 0x48FF0C7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+           n1: 87208 0x48FF9CF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+            n1: 87208 0x487E655: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+             n1: 87208 0x4880804: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+              n1: 87208 0x48DDBF5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+               n1: 87208 0x4910B2C: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                n1: 87208 0x491359E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                 n1: 87208 0x4913AE4: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                  n1: 87208 0x4913E04: sqlite3_prepare_v2 (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                   n1: 87208 0x40AE13: db_communicator::prepare_stage_read(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                    n1: 87208 0x40B241: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                     n1: 87208 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                      n1: 87208 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                       n0: 87208 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 12376 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 7032 in 23 places, all below massif's threshold (1.00%)
+    n2: 5344 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n0: 2792 in 12 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 1224 in 4 places, all below massif's threshold (1.00%)
+   n2: 8208 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x488A1A5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48D5B75: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 4152 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2096 in 8 places, all below massif's threshold (1.00%)
+    n1: 2056 0x487B63E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 2056 0x487BC60: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 2056 0x487B0B9: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 2056 0x48D5BF7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2056 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 2056 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 2056 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 2056 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n0: 2056 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 3064 in 16 places, all below massif's threshold (1.00%)
+   n1: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2240 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n0: 2263 in 11 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=31
+#-----------
+time=255448
+mem_heap_B=192215
+mem_heap_extra_B=3617
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=258480
+mem_heap_B=190479
+mem_heap_extra_B=3345
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=260744
+mem_heap_B=189914
+mem_heap_extra_B=3438
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=265056
+mem_heap_B=191810
+mem_heap_extra_B=3438
+mem_stacks_B=0
+heap_tree=detailed
+n4: 191810 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 114928 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n6: 114928 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n1: 87208 0x487B98A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 87208 0x48CA467: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 87208 0x486DD6D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 87208 0x48CB879: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 87208 0x48FE7FF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 87208 0x48FE9CA: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 87208 0x48FEA0D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 87208 0x48FF0C7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+           n1: 87208 0x48FF9CF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+            n1: 87208 0x487E655: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+             n1: 87208 0x4880804: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+              n1: 87208 0x48DDBF5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+               n1: 87208 0x4910B2C: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                n1: 87208 0x491359E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                 n1: 87208 0x4913AE4: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                  n1: 87208 0x4913E04: sqlite3_prepare_v2 (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                   n1: 87208 0x40AE13: db_communicator::prepare_stage_read(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                    n1: 87208 0x40B241: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                     n1: 87208 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                      n1: 87208 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                       n0: 87208 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 9520 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n2: 5344 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n0: 2792 in 12 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 1224 in 4 places, all below massif's threshold (1.00%)
+    n0: 4176 in 23 places, all below massif's threshold (1.00%)
+   n2: 8208 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x488A1A5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48D5B75: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 4672 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2616 in 8 places, all below massif's threshold (1.00%)
+    n1: 2056 0x487B63E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 2056 0x487BC60: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 2056 0x487B0B9: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 2056 0x48D5BF7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2056 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 2056 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 2056 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 2056 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n0: 2056 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 3080 in 16 places, all below massif's threshold (1.00%)
+   n1: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2240 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n0: 2162 in 11 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=268248
+mem_heap_B=189586
+mem_heap_extra_B=3318
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=271680
+mem_heap_B=192538
+mem_heap_extra_B=3478
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=275864
+mem_heap_B=192258
+mem_heap_extra_B=3606
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=278936
+mem_heap_B=190514
+mem_heap_extra_B=3334
+mem_stacks_B=0
+heap_tree=detailed
+n4: 190514 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 113696 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n6: 113696 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n1: 87208 0x487B98A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 87208 0x48CA467: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 87208 0x486DD6D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 87208 0x48CB879: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 87208 0x48FE7FF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 87208 0x48FE9CA: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 87208 0x48FEA0D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 87208 0x48FF0C7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+           n1: 87208 0x48FF9CF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+            n1: 87208 0x487E655: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+             n1: 87208 0x4880804: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+              n1: 87208 0x48DDBF5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+               n1: 87208 0x4910B2C: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                n1: 87208 0x491359E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                 n1: 87208 0x4913AE4: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                  n1: 87208 0x4913E04: sqlite3_prepare_v2 (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                   n1: 87208 0x40AE13: db_communicator::prepare_stage_read(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                    n1: 87208 0x40B241: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                     n1: 87208 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                      n1: 87208 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                       n0: 87208 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 8808 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n2: 5344 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n0: 2792 in 12 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 1224 in 4 places, all below massif's threshold (1.00%)
+    n0: 3464 in 24 places, all below massif's threshold (1.00%)
+   n2: 8208 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x488A1A5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48D5B75: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 4152 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2096 in 8 places, all below massif's threshold (1.00%)
+    n1: 2056 0x487B63E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 2056 0x487BC60: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 2056 0x487B0B9: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 2056 0x48D5BF7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2056 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 2056 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 2056 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 2056 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n0: 2056 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 3080 in 16 places, all below massif's threshold (1.00%)
+   n1: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2240 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n0: 2098 in 11 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=39
+#-----------
+time=282288
+mem_heap_B=190408
+mem_heap_extra_B=3480
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=285632
+mem_heap_B=191864
+mem_heap_extra_B=3464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=287832
+mem_heap_B=189784
+mem_heap_extra_B=3344
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=290600
+mem_heap_B=191335
+mem_heap_extra_B=3457
+mem_stacks_B=0
+heap_tree=detailed
+n4: 191335 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 114520 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n6: 114520 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n1: 87208 0x487B98A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 87208 0x48CA467: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 87208 0x486DD6D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 87208 0x48CB879: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 87208 0x48FE7FF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 87208 0x48FE9CA: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 87208 0x48FEA0D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 87208 0x48FF0C7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+           n1: 87208 0x48FF9CF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+            n1: 87208 0x487E655: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+             n1: 87208 0x4880804: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+              n1: 87208 0x48DDBF5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+               n1: 87208 0x4910B2C: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                n1: 87208 0x491359E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                 n1: 87208 0x4913AE4: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                  n1: 87208 0x4913E04: sqlite3_prepare_v2 (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                   n1: 87208 0x40AE13: db_communicator::prepare_stage_read(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                    n1: 87208 0x40B241: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                     n1: 87208 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                      n1: 87208 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                       n0: 87208 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 9616 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n2: 5344 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n0: 2792 in 12 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 1224 in 4 places, all below massif's threshold (1.00%)
+    n0: 4272 in 24 places, all below massif's threshold (1.00%)
+   n2: 8208 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x488A1A5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48D5B75: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 4152 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2096 in 8 places, all below massif's threshold (1.00%)
+    n1: 2056 0x487B63E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 2056 0x487BC60: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 2056 0x487B0B9: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 2056 0x48D5BF7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2056 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 2056 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 2056 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 2056 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n0: 2056 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 3096 in 16 places, all below massif's threshold (1.00%)
+   n1: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2240 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n0: 2095 in 11 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=43
+#-----------
+time=294176
+mem_heap_B=194255
+mem_heap_extra_B=3793
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=296376
+mem_heap_B=192255
+mem_heap_extra_B=3625
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=299408
+mem_heap_B=190519
+mem_heap_extra_B=3353
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=302728
+mem_heap_B=190402
+mem_heap_extra_B=3478
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=305944
+mem_heap_B=191834
+mem_heap_extra_B=3422
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=308072
+mem_heap_B=189778
+mem_heap_extra_B=3350
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=310840
+mem_heap_B=191353
+mem_heap_extra_B=3439
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=312552
+mem_heap_B=192633
+mem_heap_extra_B=3551
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=314416
+mem_heap_B=194273
+mem_heap_extra_B=3775
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=316152
+mem_heap_B=192705
+mem_heap_extra_B=3687
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=317888
+mem_heap_B=192121
+mem_heap_extra_B=3591
+mem_stacks_B=0
+heap_tree=detailed
+n4: 192121 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 115304 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n6: 115304 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n1: 87208 0x487B98A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 87208 0x48CA467: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 87208 0x486DD6D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 87208 0x48CB879: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 87208 0x48FE7FF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 87208 0x48FE9CA: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 87208 0x48FEA0D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 87208 0x48FF0C7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+           n1: 87208 0x48FF9CF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+            n1: 87208 0x487E655: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+             n1: 87208 0x4880804: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+              n1: 87208 0x48DDBF5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+               n1: 87208 0x4910B2C: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                n1: 87208 0x491359E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                 n1: 87208 0x4913AE4: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                  n1: 87208 0x4913E04: sqlite3_prepare_v2 (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                   n1: 87208 0x40AE13: db_communicator::prepare_stage_read(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                    n1: 87208 0x40B241: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                     n1: 87208 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                      n1: 87208 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                       n0: 87208 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 10400 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n2: 5344 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n0: 2792 in 12 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 1224 in 4 places, all below massif's threshold (1.00%)
+    n0: 5056 in 24 places, all below massif's threshold (1.00%)
+   n2: 8208 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x488A1A5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48D5B75: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 4152 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2096 in 8 places, all below massif's threshold (1.00%)
+    n1: 2056 0x487B63E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 2056 0x487BC60: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 2056 0x487B0B9: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 2056 0x48D5BF7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2056 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 2056 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 2056 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 2056 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n0: 2056 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 3096 in 16 places, all below massif's threshold (1.00%)
+   n1: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2240 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n0: 2097 in 11 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=319728
+mem_heap_B=190529
+mem_heap_extra_B=3343
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=321440
+mem_heap_B=189534
+mem_heap_extra_B=3314
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=324112
+mem_heap_B=191438
+mem_heap_extra_B=3506
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=325832
+mem_heap_B=191334
+mem_heap_extra_B=3426
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=328536
+mem_heap_B=189782
+mem_heap_extra_B=3346
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=330272
+mem_heap_B=190339
+mem_heap_extra_B=3421
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=331992
+mem_heap_B=191755
+mem_heap_extra_B=3517
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=333744
+mem_heap_B=193155
+mem_heap_extra_B=3757
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=336032
+mem_heap_B=193203
+mem_heap_extra_B=3773
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=337824
+mem_heap_B=192611
+mem_heap_extra_B=3629
+mem_stacks_B=0
+heap_tree=detailed
+n4: 192611 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 115792 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n6: 115792 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n1: 87208 0x487B98A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 87208 0x48CA467: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 87208 0x486DD6D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 87208 0x48CB879: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 87208 0x48FE7FF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 87208 0x48FE9CA: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 87208 0x48FEA0D: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 87208 0x48FF0C7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+           n1: 87208 0x48FF9CF: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+            n1: 87208 0x487E655: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+             n1: 87208 0x4880804: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+              n1: 87208 0x48DDBF5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+               n1: 87208 0x4910B2C: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                n1: 87208 0x491359E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                 n1: 87208 0x4913AE4: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                  n1: 87208 0x4913E04: sqlite3_prepare_v2 (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+                   n1: 87208 0x40AE13: db_communicator::prepare_stage_read(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                    n1: 87208 0x40B241: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                     n1: 87208 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                      n1: 87208 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+                       n0: 87208 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 10888 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 5544 in 24 places, all below massif's threshold (1.00%)
+    n2: 5344 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n0: 2792 in 12 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 1224 in 4 places, all below massif's threshold (1.00%)
+   n2: 8208 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x488A1A5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48D5B75: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 4152 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2096 in 8 places, all below massif's threshold (1.00%)
+    n1: 2056 0x487B63E: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 2056 0x487BC60: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 2056 0x487B0B9: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 2056 0x48D5BF7: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n1: 2056 0x493F587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 2056 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 2056 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 2056 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n0: 2056 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 3096 in 16 places, all below massif's threshold (1.00%)
+   n1: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 2240 in 4 places, all below massif's threshold (1.00%)
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n0: 2099 in 11 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=340176
+mem_heap_B=190531
+mem_heap_extra_B=3357
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=341904
+mem_heap_B=189538
+mem_heap_extra_B=3310
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=344576
+mem_heap_B=191442
+mem_heap_extra_B=3502
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=346312
+mem_heap_B=191346
+mem_heap_extra_B=3430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=349032
+mem_heap_B=189786
+mem_heap_extra_B=3342
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=354056
+mem_heap_B=184903
+mem_heap_extra_B=3201
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=441280
+mem_heap_B=97695
+mem_heap_extra_B=3185
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=443352
+mem_heap_B=95639
+mem_heap_extra_B=3169
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=445072
+mem_heap_B=94047
+mem_heap_extra_B=3041
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=446808
+mem_heap_B=92559
+mem_heap_extra_B=2793
+mem_stacks_B=0
+heap_tree=detailed
+n5: 92559 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4A0C414: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+  n1: 72704 0x400F398: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x400F494: _dl_init (dl-init.c:118)
+    n0: 72704 0x40010C8: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.28.so)
+ n1: 15904 0x48A9E72: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+  n5: 15904 0x48767D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+   n2: 5600 0x48785BE: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n2: 4800 0x4878627: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4120 0x487AC32: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 4120 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n2: 3000 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n2: 2792 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+         n1: 1448 0x4940052: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+          n1: 1448 0x40A960: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n1: 1448 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+            n1: 1448 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+             n0: 1448 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n0: 1344 in 11 places, all below massif's threshold (1.00%)
+        n0: 208 in 1 place, below massif's threshold (1.00%)
+       n0: 1120 in 3 places, all below massif's threshold (1.00%)
+     n0: 680 in 4 places, all below massif's threshold (1.00%)
+    n0: 800 in 24 places, all below massif's threshold (1.00%)
+   n2: 4104 0x487B30A: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 4104 0x48A6587: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n1: 4104 0x48F77D2: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n1: 4104 0x48FD036: sqlite3_step (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 4104 0x40AAD3: db_communicator::prepare_stage_write(char const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 4104 0x40B4A1: db_communicator::store_to_db(game const* const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 4104 0x410FDB: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 4104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 4104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+   n0: 2936 in 17 places, all below massif's threshold (1.00%)
+   n2: 2240 0x487A7B5: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n1: 1400 0x487ACA6: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+     n2: 1400 0x48AAD42: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+      n2: 1080 0x48AB034: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+       n1: 1000 0x48AB095: sqlite3_create_function (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+        n0: 1000 in 10 places, all below massif's threshold (1.00%)
+       n0: 80 in 1 place, below massif's threshold (1.00%)
+      n0: 320 in 2 places, all below massif's threshold (1.00%)
+    n0: 840 in 3 places, all below massif's threshold (1.00%)
+   n1: 1024 0x4876867: ??? (in /usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6)
+    n0: 1024 in 9 places, all below massif's threshold (1.00%)
+ n1: 2016 0x408C0F: __gnu_cxx::new_allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 2016 0x408BBA: std::allocator_traits<std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >::allocate(std::allocator<std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 2016 0x408AC2: std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_get_node() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 2016 0x408A6E: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_create_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 2016 0x408A41: std::_Rb_tree_node<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >* std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node::operator()<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&) const (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 2016 0x408405: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_node_base*, std::_Rb_tree_node_base*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 2016 0x407F37: std::_Rb_tree_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique_<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node>(std::_Rb_tree_const_iterator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const&, std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_Alloc_node&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 2016 0x407C53: void std::_Rb_tree<unsigned int, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::_Select1st<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_insert_unique<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*>(std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*, std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 2016 0x405D6C: std::map<unsigned int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::less<unsigned int>, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::map(std::initializer_list<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >, std::less<unsigned int> const&, std::allocator<std::pair<unsigned int const, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 2016 in 3 places, all below massif's threshold (1.00%)
+ n1: 1024 0x4D0C90A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4D1A91E: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4D19BC6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:752)
+    n1: 1024 0x4D18CDD: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1251)
+     n1: 1024 0x4D0DCD6: fwrite (iofwrite.c:39)
+      n1: 1024 0x4A8AD42: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 1024 0x40AA0B: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 1024 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 1024 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 1024 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+ n0: 911 in 10 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=74
+#-----------
+time=451976
+mem_heap_B=87607
+mem_heap_extra_B=2577
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=453688
+mem_heap_B=86111
+mem_heap_extra_B=2361
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=455440
+mem_heap_B=84599
+mem_heap_extra_B=2121
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=457176
+mem_heap_B=83055
+mem_heap_extra_B=1929
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=458920
+mem_heap_B=81567
+mem_heap_extra_B=1673
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=460680
+mem_heap_B=80255
+mem_heap_extra_B=1225
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=80
+#-----------
+time=462432
+mem_heap_B=78799
+mem_heap_extra_B=929
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=464896
+mem_heap_B=76655
+mem_heap_extra_B=609
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=466664
+mem_heap_B=75208
+mem_heap_extra_B=288
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=540168
+mem_heap_B=1856
+mem_heap_extra_B=136
+mem_stacks_B=0
+heap_tree=detailed
+n8: 1856 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x4D0C90A: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4D1A91E: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4D19BC6: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:752)
+    n1: 1024 0x4D18CDD: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1251)
+     n1: 1024 0x4D0DCD6: fwrite (iofwrite.c:39)
+      n1: 1024 0x4A8AD42: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+       n1: 1024 0x40AA0B: db_communicator::db_communicator(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 1024 0x410F80: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 1024 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 1024 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+ n1: 440 0x410F97: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 440 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n0: 440 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+ n1: 120 0x40E4B1: game::game(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 120 0x410FB0: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 120 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n0: 120 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+ n1: 104 0x40509D: poker_comb_finder(poker_player&, poker_dealer const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 104 0x40E78C: game::play_round() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 104 0x410FC6: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 104 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n0: 104 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+ n1: 64 0x407825: __gnu_cxx::new_allocator<card>::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 64 0x4077CA: std::allocator_traits<std::allocator<card> >::allocate(std::allocator<card>&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 64 0x407611: std::_Vector_base<card, std::allocator<card> >::_M_allocate(unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 64 0x407196: void std::vector<card, std::allocator<card> >::_M_realloc_insert<card const&>(__gnu_cxx::__normal_iterator<card*, std::vector<card, std::allocator<card> > >, card const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n3: 64 0x4065CF: std::vector<card, std::allocator<card> >::push_back(card const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 32 0x40F0C3: poker_player::draw_hand(card const&, card const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 32 0x40E70A: game::play_round() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 32 0x410FC6: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 32 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 32 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n1: 32 0x40F123: poker_dealer::draw_table(card const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 32 0x40E746: game::play_round() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 32 0x410FC6: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 32 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n0: 32 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n0: 0 in 5 places, all below massif's threshold (1.00%)
+    n0: 0 in 4 places, all below massif's threshold (1.00%)
+ n1: 64 0x409A65: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 64 0x409A0A: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n2: 64 0x4097B1: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n1: 64 0x409316: void std::vector<int, std::allocator<int> >::_M_realloc_insert<int>(__gnu_cxx::__normal_iterator<int*, std::vector<int, std::allocator<int> > >, int&&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+     n1: 64 0x40921C: void std::vector<int, std::allocator<int> >::emplace_back<int>(int&&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+      n2: 64 0x4067AE: std::vector<int, std::allocator<int> >::push_back(int&&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 32 0x405A43: poker_comb_finder(poker_player&, poker_dealer const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 32 0x40E78C: game::play_round() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 32 0x410FC6: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 32 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 32 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+       n1: 32 0x405AE7: poker_comb_finder(poker_player&, poker_dealer const&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+        n1: 32 0x40E78C: game::play_round() (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+         n1: 32 0x410FC6: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+          n1: 32 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+           n0: 32 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 40 0x40E533: game::game(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+  n1: 40 0x410FB0: train_db(unsigned int) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+   n1: 40 0x41107E: training_process_daemon(unsigned int*&) (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+    n0: 40 0x411106: main (in /home/fivosts/Desktop/PhD/Code/llvm_passes/tests/difficult_test/poker_simulator.out)
+ n0: 0 in 7 places, all below massif's threshold (1.00%)
