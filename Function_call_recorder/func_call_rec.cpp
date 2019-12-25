@@ -46,9 +46,9 @@ static cl::opt<bool>
     no_exit("no_exit", cl::init(true), cl::Hidden,
                      cl::desc("print state only on main's return "));
 
-static cl::opt<bool>
-    temp_flag("temp_flag", cl::init(false), cl::Hidden,
-                     cl::desc("print state only on main's return "));
+// static cl::opt<bool>
+//     temp_flag("temp_flag", cl::init(false), cl::Hidden,
+//                      cl::desc("print state only on main's return "));
 
 namespace {
   struct Func_call : public ModulePass {
@@ -150,11 +150,14 @@ namespace {
             CallInst *update_val_float = CallInst::Create(update_float, {value, call_rec, ConstantInt::get(Type::getInt32Ty(module_context), mode)}, "", insert_point); (void) update_val_float;
         }else if (val_type == Type::getDoubleTy(module_context)){
             CallInst *update_val_double = CallInst::Create(update_double, {value, call_rec, ConstantInt::get(Type::getInt32Ty(module_context), mode)}, "", insert_point);   (void) update_val_double;
-        }else if (val_type->isStructTy() && (exclude_structs(val_type) || temp_exclude_struct) /* && ( dyn_cast<StructType>(val_type)->getStructName().find("class.seal::util::MemoryPoolItem") == std::string::npos ) 
-                                                                                                && ( dyn_cast<StructType>(val_type)->getStructName().find("class.seal::MemoryPoolHandle") == std::string::npos )
-                                                                                                && ( dyn_cast<StructType>(val_type)->getStructName().find("class.seal::util::MemoryPoolHead") == std::string::npos ) 
-                                                                                                && ( dyn_cast<StructType>(val_type)->getStructName().find("struct.std::complex") == std::string::npos ) 
-                                                                                                && ( dyn_cast<StructType>(val_type)->getStructName().find("class.std::shared_ptr") == std::string::npos )*/ ){
+        // }else if (val_type->isStructTy() && (exclude_structs(val_type) || temp_exclude_struct)  && ( dyn_cast<StructType>(val_type)->getStructName().find("struct.re_token_t") == std::string::npos ) 
+        //                                                                                         && ( dyn_cast<StructType>(val_type)->getStructName().find("struct.re_string_t") == std::string::npos )
+        //                                                                                         && ( dyn_cast<StructType>(val_type)->getStructName().find("struct.re_dfa_t") == std::string::npos )
+        //                                                                                         && ( dyn_cast<StructType>(val_type)->getStructName().find("struct.bin_tree_t") == std::string::npos ) 
+        //                                                                                         && ( dyn_cast<StructType>(val_type)->getStructName().find("struct.re_pattern_buffer") == std::string::npos )
+        //                                                                                         && ( dyn_cast<StructType>(val_type)->getStructName().find("struct.bracket_elem_t") == std::string::npos ) ){
+
+        }else if (val_type->isStructTy() && (temp_exclude_struct) ){
 
             bool was_true = temp_exclude_struct;
             temp_exclude_struct = true;
@@ -384,13 +387,15 @@ namespace {
 
     void setup_exit_point(Value *call_rec, Instruction *insert_point, Module &M, LLVMContext& module_context){
 
-		CallInst *update_void_exit = CallInst::Create(update_void, {call_rec, ConstantInt::get(Type::getInt32Ty(module_context), 1)}, "", insert_point);  (void) update_void_exit;
-    if (trace_globals){
-      CallInst *gl_trace = CallInst::Create(global_trace, "", insert_point);	(void) gl_trace;
-    }else{
-      outs() << "Skipping CallInst to global_trace\n";
-    }
-		CallInst *print_rec = CallInst::Create(print_trace, "", insert_point);	(void) print_rec;
+        insert_point->print(outs());
+        outs() << "\n";
+        CallInst *update_void_exit = CallInst::Create(update_void, {call_rec, ConstantInt::get(Type::getInt32Ty(module_context), 1)}, "", insert_point);  (void) update_void_exit;
+        if (trace_globals){
+          CallInst *gl_trace = CallInst::Create(global_trace, "", insert_point);	(void) gl_trace;
+        }else{
+          outs() << "Skipping CallInst to global_trace\n";
+        }
+    	CallInst *print_rec = CallInst::Create(print_trace, "", insert_point);	(void) print_rec;
     	return;
     }
 
@@ -471,7 +476,9 @@ namespace {
 
       if(t->isStructTy()){
         if (!dyn_cast<StructType>(t)->isLiteral()){
+            return true;
           if (
+
             /* // Seal encryptor structtypes below
             t->getStructName().find("class.seal::BigUInt") != std::string::npos  ||
               t->getStructName().find("class.seal::EncryptionParameters") != std::string::npos  ||
@@ -492,6 +499,8 @@ namespace {
             t->getStructName().find("struct.dev::eth::ChainOperationParams") != std::string::npos ||
             t->getStructName().find("class.boost::multiprecision::number") != std::string::npos ||
             t->getStructName().find("class.std::__cxx11::basic_string") != std::string::npos ){
+
+
             return true;
           }else{
             return false;
@@ -512,6 +521,8 @@ namespace {
 
         // TODO
         //assert_wrong_combinations();
+
+        outs() << "Starting instrumentation...\n\n";
 
         LLVMContext &module_context = M.getContext();
         std::vector<std::string> func_names;  //TODO change that to set ?
@@ -543,11 +554,14 @@ namespace {
 
         //////////////////////////
         ///Remove when not needed anymore
-        if (temp_flag){
-	        if ((F->getName().find("decode_uint64") == std::string::npos) && (F->getName().find("decode_biguint") == std::string::npos)){
-	            continue;
-	        }   
-	    }
+            if ( (F->getName().find("parse_expression") != std::string::npos ) || 
+                (F->getName().find("duplicate_node") != std::string::npos) || 
+                (F->getName().find("parse_dup_op") != std::string::npos) || 
+                (F->getName().find("check_final_program") != std::string::npos) ||
+                 (F->getName().find("compile_program") != std::string::npos) ||
+                 (F->getName().find("parse_sub_exp") != std::string::npos) ){
+                continue;
+            }   
         ////////////////////////////////
 
         for (SymbolTableList<BasicBlock>::iterator BB = F->begin(); BB != F->end(); BB++){
@@ -569,10 +583,13 @@ namespace {
                     continue;
                 }
 
+                //!!!!
+                Instruction *next = I->getNextNode();
+
                 if (called_func->getName() == "exit" && !no_exit){
                 	call_rec = CallInst::Create(record_exit_point, load_call_names(F->getName(), called_func->getName(), &*I, module_context), "call_index", &*I);
                 }else{
-                	call_rec = CallInst::Create(record_call, load_call_names(F->getName(), called_func->getName(), &*I, module_context), "call_index", &*I);
+                	call_rec = CallInst::Create(record_call, load_call_names(F->getName(), called_func->getName(), I->getNextNode(), module_context), "call_index", I->getNextNode());
                 }
 
                 unsigned arg_iter = 0;
@@ -583,20 +600,125 @@ namespace {
 						arg_iter = 1;
                 	}
                 }
+
+                // I->getNextNode()->getNextNode()->print(outs());
                 for (unsigned arg = arg_iter; arg != func_call->getNumArgOperands(); arg++){
 
                     Value *argument = func_call->getArgOperand(arg);
                     Type *arg_type = argument->getType();
                     temp_exclude_struct = false;
-                    parse_value(call_rec, argument, arg_type, &*I, 2, M, module_context);
+                    parse_value(call_rec, argument, arg_type, next, 2, M, module_context);
                 }
                 temp_exclude_struct = false;
-                parse_value(call_rec, func_ret_val, func_ret_type, I->getNextNode(), 1, M, module_context);
+                parse_value(call_rec, func_ret_val, func_ret_type, next, 1, M, module_context);
                 if (called_func->getName() == "exit" && !no_exit){	setup_exit_point(call_rec, &*I, M, module_context); }
                 while ( &*BB != I->getParent()){ BB++; }
 
             } else if (isa<InvokeInst>(&*I)){
 
+            	//!! Postorder version begin
+
+                InvokeInst *invoke_instr = dyn_cast<InvokeInst>(&*I);
+
+                if ( invoke_instr->getCalledFunction() == nullptr || (!isa<Function>(invoke_instr->getCalledFunction())) || ( only_defined && invoke_instr->getCalledFunction()->getInstructionCount() == 0 )){
+                	// update_unwind_block(invoke_instr->getUnwindDest(), &*BB, ConstantInt::get(Type::getInt32Ty(module_context), 0), module_context);
+                	continue;
+                }
+
+                // Function *invoked_func = invoke_instr->getCalledFunction();
+                // outs() << "Ok 1\n";
+                // CallInst *call_rec = CallInst::Create(record_invoke, load_call_names(F->getName(), invoked_func->getName(), &*I, module_context), "call_index", &*I);
+                // outs() << "Ok 2\n";
+
+                // Type *func_ret_type = invoked_func->getReturnType();
+                Instruction *insert_point_n = &*(invoke_instr->getNormalDest()->rbegin());
+                // Value *func_ret_val = &*I;
+                // unsigned arg_iter = 0;
+
+                for (auto rev_it = invoke_instr->getNormalDest()->rbegin(); rev_it != invoke_instr->getNormalDest()->rend(); rev_it++){
+                	if (isa<CallInst>(&*rev_it)){
+                		insert_point_n = &*rev_it;
+                	}
+                }
+                // if (invoked_func->arg_size() > 0){
+                // 	if (invoked_func->arg_begin()->hasStructRetAttr()){
+                // 		func_ret_type = invoked_func->arg_begin()->getType();
+                // 		func_ret_val = invoke_instr->getArgOperand(0);
+                //     arg_iter = 1;
+                // 	}
+                // }
+
+                // for (unsigned arg = arg_iter; arg != invoke_instr->getNumArgOperands(); arg++){
+
+                //     Value *argument = invoke_instr->getArgOperand(arg);
+                //     Type *arg_type = argument->getType();
+                //     temp_exclude_struct = false;
+                //     parse_value(call_rec, argument, arg_type, &*I, 2, M, module_context);
+                // }
+                // outs() << "Ok 3\n";
+
+                //if normalDestination->preds.size > 1 ---> insert block; insert br %normalDestination; B++; provide the new block in parse_value; setNormalDestination for invoke
+                if (invoke_instr->getNormalDest()->getSinglePredecessor() == nullptr){
+                    BasicBlock *mid_inv_block = BasicBlock::Create(module_context, "mid_invoke", &*F, invoke_instr->getNormalDest());
+                    Instruction *jump_normal_dest = BranchInst::Create(invoke_instr->getNormalDest(), mid_inv_block);
+                    insert_point_n = jump_normal_dest;
+
+                    //search for phis and replace former normal dest with new one
+                    Instruction *t = &*invoke_instr->getNormalDest()->begin();
+                    while (isa<PHINode>(t)){
+                        for (unsigned b = 0; b < dyn_cast<PHINode>(t)->getNumIncomingValues(); b++){
+                            // outs() << dyn_cast<PHINode>(t)->getIncomingBlock(b)->getName() << "    " << invoke_instr->getParent()->getName() << "\n";
+                            if (dyn_cast<PHINode>(t)->getIncomingBlock(b) == invoke_instr->getParent()){
+                                dyn_cast<PHINode>(t)->setIncomingBlock(b, mid_inv_block);
+
+                            }
+                        }
+                        t = t->getNextNode();
+                    }
+                    invoke_instr->setNormalDest(mid_inv_block);
+                }
+
+
+
+                Function *invoked_func = invoke_instr->getCalledFunction();
+                // outs() << "Ok 1\n";
+                CallInst *call_rec = CallInst::Create(record_invoke, load_call_names(F->getName(), invoked_func->getName(), &*I, module_context), "call_index", insert_point_n);
+                // outs() << "Ok 2\n";
+
+                Type *func_ret_type = invoked_func->getReturnType();
+
+                Value *func_ret_val = &*I;
+                unsigned arg_iter = 0;
+
+
+                if (invoked_func->arg_size() > 0){
+                    if (invoked_func->arg_begin()->hasStructRetAttr()){
+                        func_ret_type = invoked_func->arg_begin()->getType();
+                        func_ret_val = invoke_instr->getArgOperand(0);
+                    arg_iter = 1;
+                    }
+                }
+
+                for (unsigned arg = arg_iter; arg != invoke_instr->getNumArgOperands(); arg++){
+
+                    Value *argument = invoke_instr->getArgOperand(arg);
+                    Type *arg_type = argument->getType();
+                    temp_exclude_struct = false;
+                    parse_value(call_rec, argument, arg_type, insert_point_n, 2, M, module_context);
+                }
+                // outs() << "Ok 3\n";
+
+                temp_exclude_struct = false;
+                parse_value(call_rec, func_ret_val, func_ret_type, insert_point_n, 1, M, module_context);
+                while ( &*BB != I->getParent()){ 	BB++; 	}
+                // update_unwind_block(invoke_instr->getUnwindDest(), &*BB, call_rec, module_context);
+            
+            	//!! Postorder version end
+
+
+            	//!! Preorder version begin
+
+                /*
                 InvokeInst *invoke_instr = dyn_cast<InvokeInst>(&*I);
 
                 if ( invoke_instr->getCalledFunction() == nullptr || (!isa<Function>(invoke_instr->getCalledFunction())) || ( only_defined && invoke_instr->getCalledFunction()->getInstructionCount() == 0 )){
@@ -656,6 +778,10 @@ namespace {
                 parse_value(call_rec, func_ret_val, func_ret_type, insert_point_n, 1, M, module_context);
                 while ( &*BB != I->getParent()){ 	BB++; 	}
                 // update_unwind_block(invoke_instr->getUnwindDest(), &*BB, call_rec, module_context);
+                */
+
+            	//!! Preorder version end
+
             }
         }
         }
