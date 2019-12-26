@@ -105,7 +105,8 @@ namespace {
 
             PtrToIntInst *ptr_address = new PtrToIntInst(value, Type::getInt64Ty(module_context), "ptr_address", insert_point);
             Instruction *cmp_zero = new ICmpInst(insert_point, CmpInst::Predicate::ICMP_EQ, ptr_address, ConstantInt::get(Type::getInt64Ty(module_context), 0), "cmp_ptr_address");
-            TerminatorInst *if_term, *else_term;
+            // TerminatorInst *if_term, *else_term;
+            Instruction *if_term, *else_term;
 
             SplitBlockAndInsertIfThenElse(cmp_zero, insert_point, &if_term, &else_term, nullptr);
 
