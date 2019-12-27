@@ -63,10 +63,10 @@ namespace {
     std::unordered_set<std::string> excluded_callers = {"__cxx_global_var_init", "_GLOBAL__sub_I", "__cxa_atexit", "global_tracing_function"};
     // std::unordered_set<std::string> excluded_callees = {"llvm.dbg", "llvm.lifetime"};
 
-    Constant *print_trace, *global_trace=nullptr;//, *trace_function;
-    Constant *record_call, *record_invoke, *record_exit_point;
-    Constant *update_void, *update_1, *update_8, *update_16, *update_32, *update_64, *update_128, *update_float, *update_double,
-              *update_ptr, *update_array, *update_struct, *update_exception, *update_undefined, *update_unallocated;
+    FunctionCallee print_trace, global_trace;//, *trace_function;
+    FunctionCallee record_call, record_invoke, record_exit_point;
+    FunctionCallee update_void, update_1, update_8, update_16, update_32, update_64, update_128, update_float, update_double,
+              update_ptr, update_array, update_struct, update_exception, update_undefined, update_unallocated;
 
     Func_call() : ModulePass(ID) {}
 
@@ -299,7 +299,8 @@ namespace {
         global_tracing_func->addFnAttr(Attribute::NoUnwind);
         global_tracing_func->addFnAttr(Attribute::NoInline);
         global_tracing_func->addFnAttr(Attribute::OptimizeNone);
-        global_trace = cast<Constant>(global_tracing_func);
+        // global_trace = cast<FunctionCallee>(global_tracing_func);
+        global_trace = M.getOrInsertFunction("global_tracing_function", global_tracing_func->getFunctionType());
 		BasicBlock *first_block = BasicBlock::Create(M.getContext(), "entrypoint", global_tracing_func);
 		Instruction *insert_point = ReturnInst::Create(M.getContext(), nullptr, first_block);
 
