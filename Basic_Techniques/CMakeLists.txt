@@ -1,1 +1,0 @@
-add_library( Basic_techniques MODULE basic_techniques.cpp)
