@@ -9,6 +9,6 @@ add_definitions(${LLVM_DEFINITIONS})
 include_directories(${LLVM_INCLUDE_DIRS})
 
 add_subdirectory(hello)
-add_subdirectory(Basic_Techniques)
-add_subdirectory(Function_call_recorder)
+add_subdirectory(BasicTechniques)
+add_subdirectory(RuntimeRecorder)
 add_subdirectory(SCC_skeleton)
