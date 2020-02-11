@@ -805,4 +805,4 @@ namespace {
 }
 
 char Func_call::ID = 0;
-static RegisterPass<Func_call> X("func_call", "Program Instrumentation: Runtime function and global state tracing", false, false);
+static RegisterPass<Func_call> X("rec", "Program Instrumentation: Runtime function and global state tracing", false, false);
