@@ -1,9 +1,14 @@
-// Replace all binary operators (add, sub, mult, ...) to a multiplication just to
-// exercise how to replace instructions
-// building:
-// go to the 'build' folder and run 'cmake ../' and then run 'make'
-// running:
-// opt -load src/libLLVMAllMultiply.so -all-multiply -time-passes -debug-pass=Structure < ../../tutorial-llvm/hello.bc > /dev/null
+/**
+ * @file basic_techniques.cpp
+ *
+ * @brief Replace all binary operators (add, sub, mult, ...) to multiplication.
+ * 		  go to the 'build' folder and run 'cmake ../' and then run 'make'
+ *		  opt -load src/libLLVMAllMultiply.so -example -time-passes -debug-pass=Structure < ../../tutorial-llvm/hello.bc > /dev/null
+ *
+ * @author Rodrigo Rocha
+ * Contact: https://github.com/rcorcs
+ *
+ */
 
 #include "llvm/Pass.h"
 #include "llvm/IR/Module.h"
@@ -39,7 +44,7 @@ namespace {
         outs() << "Module name: " << M.getSourceFileName() << "\nToday is the day I die!\n";
 
         // Constant *hook;
-        StringRef name("foivos_func");
+        StringRef name("new_func");
         // hook = M.getOrInsertFunction(name, Type::getVoidTy(M.getContext()));
         // Function *hook_function = cast<Function>(hook);
 		// std::vector<Type*> Doubles(3, Type::getDoubleTy(M.getContext()));
